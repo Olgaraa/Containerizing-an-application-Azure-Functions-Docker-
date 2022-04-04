@@ -6,6 +6,7 @@ Dockerfile - a text document that contains all the necessary commands you need t
 
 docker build - command that builds an image from a Dockerfile
 Syntax:
+\n
 docker build -t <tag:version> <dockerfile_path>
 Eg:
 docker build -t olgaraa/azurefunctionsimage:v1.0.0 .
