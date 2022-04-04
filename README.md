@@ -6,7 +6,6 @@ Dockerfile - a text document that contains all the necessary commands you need t
 
 docker build - command that builds an image from a Dockerfile
 Syntax:
-\n
 docker build -t <tag:version> <dockerfile_path>
 Eg:
 docker build -t olgaraa/azurefunctionsimage:v1.0.0 .
@@ -17,5 +16,11 @@ Syntax:
 docker login <login_server> -u <user> -p <access_key_password>
 Eg:
 docker login olga.azurecr.io -u olga -p bhbhb54h5b4h54b5h4b5h4
+	
+Afterwards you have to push the image:
+Syntax:
+docker push <image_tag>
+Eg:
+docker push olgaraa/azurefunctionsimage:v1.0.0
 	
 Azure Container Instances (ACI) - a managed service that allows you to run containers directly on the Microsoft Azure public cloud
