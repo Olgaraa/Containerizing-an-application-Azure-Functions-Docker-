@@ -1,4 +1,4 @@
-Create an application (Azure Functions) that will take data from an API, connecto the Azure SQL DB and perform operations (eg. Insert). Afterwards build and run an image (Dockerfile), by pushing it into Azure Container Registry and testing it with Azure Container Instances.
+Create an application (Azure Functions) that will take data from an API, connect to Azure SQL DB and perform operations (eg. Insert). Afterwards build and run an image (Dockerfile), by pushing it into Azure Container Registry and testing it with Azure Container Instances.
 
 Trivia:
 
@@ -15,3 +15,5 @@ Azure Container Registry - allows you to build, store, and manage container imag
 In order to push an image to Azure Container Registry, you need to log in to ACR from your command line, by using the following command:
 docker login <login_server> -u <user> -p <access_key_password>
 docker login olga.azurecr.io -u olga -p bhbhb54h5b4h54b5h4b5h4
+	
+Azure Container Instances (ACI) - a managed service that allows you to run containers directly on the Microsoft Azure public cloud
