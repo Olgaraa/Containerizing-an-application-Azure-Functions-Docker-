@@ -1,8 +1,7 @@
 Create an application (Azure Functions) that will take data from an API, connect to Azure SQL DB and perform operations (eg. Insert). Afterwards build and run an image (Dockerfile), by pushing it into Azure Container Registry and testing it with Azure Container Instances.
 
 Trivia:                          
-**Dockerfile** - a text document that contains all the necessary commands you need to call on the command line in order to create an image. You use it with the docker build command.                                
-docker build - command that builds an image from a Dockerfile
+**Dockerfile** - a text document that contains all the necessary commands you need to call on the command line in order to create an image. You use it with the docker build command, which builds an image from a Dockerfile.                                                                             
 Syntax:                                               
 docker build -t <tag:version> <dockerfile_path>                          
 Eg:                                
