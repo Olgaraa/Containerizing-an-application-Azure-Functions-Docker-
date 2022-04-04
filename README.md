@@ -1,0 +1,1 @@
+Create an application (Azure Functions) that will take data from an API, connecto the Azure SQL DB and perform operations (eg. Insert). Afterwards build and run an image (Dockerfile), by pushing it into Azure Container Registry and testing it with Azure Container Instances.
